@@ -15,13 +15,16 @@ export const SkillCloudCard: React.FC<SkillCloudProps> = ({ skillsCloud }) => {
     const levelColor = (level: skillCloud["level"]) => {
 
         switch (level) {
+
+            case "Basic":
+                return "secondary";
+
             case "Advanced":
                 return "success";
-            case "Intermediate":
-                return "warning text-black";
-            case "Basic":
-            default:
-                return "secondary";
+
+            case "Expert":
+                return "primary";
+
         }
     };
 

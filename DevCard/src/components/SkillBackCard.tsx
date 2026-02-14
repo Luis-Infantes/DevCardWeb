@@ -17,13 +17,16 @@ export const SkillBackCard: React.FC<SkillBackProps> = ({ skillsBack }) => {
     const levelColor = (level: skillBack["level"]) => {
 
         switch (level) {
+
+            case "Basic":
+                return "secondary";
+                
             case "Advanced":
                 return "success";
-            case "Intermediate":
-                return "warning text-black";
-            case "Basic":
-            default:
-                return "secondary";
+
+            case "Expert":
+                return "primary";
+                
         }
     };
 

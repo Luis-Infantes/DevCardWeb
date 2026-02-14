@@ -78,7 +78,7 @@ export type skillFront = {
 
     id: string;
     name: string;
-    level: "Basic" | "Intermediate" | "Advanced";
+    level: "Basic" | "Advanced" | "Expert";
     category: String;
     image: string;
 }
@@ -97,7 +97,7 @@ export type skillBack = {
 
     id: string;
     name: string;
-    level: "Basic" | "Intermediate" | "Advanced";
+    level: "Basic" | "Advanced" | "Expert";
     category: String;
     image: string;
 }
@@ -117,7 +117,7 @@ export type skillCloud = {
 
     id: string;
     name: string;
-    level: "Basic" | "Intermediate" | "Advanced";
+    level: "Basic" | "Advanced" | "Expert";
     category: String;
     image: string;
 }
@@ -136,7 +136,7 @@ export type skillTool = {
 
     id: string;
     name: string;
-    level: "Basic" | "Intermediate" | "Advanced";
+    level: "Basic" | "Advanced" | "Expert";
     category: String;
     image: string;
 }

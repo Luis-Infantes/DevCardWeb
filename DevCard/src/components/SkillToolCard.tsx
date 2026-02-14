@@ -19,13 +19,16 @@ export const SkillToolCard: React.FC<SkillToolProps> = ({ skillsTool }) => {
     const levelColor = (level: skillTool["level"]) => {
 
         switch (level) {
+
+            case "Basic":
+                return "secondary";
+
             case "Advanced":
                 return "success";
-            case "Intermediate":
-                return "warning text-black";
-            case "Basic":
-            default:
-                return "secondary";
+
+            case "Expert":
+                return "primary";
+
         }
     };
 
@@ -48,7 +51,9 @@ export const SkillToolCard: React.FC<SkillToolProps> = ({ skillsTool }) => {
                 wrapClassName="myModalBackdrop"
             >
 
-                <ModalHeader  className="myModalHeader">Tool Skills</ModalHeader>
+                <ModalHeader className="myModalHeader">Tool Skills</ModalHeader>
+
+                
 
                 <ModalBody className="myModalBody">
 

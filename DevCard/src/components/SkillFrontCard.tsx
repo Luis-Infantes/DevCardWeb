@@ -16,15 +16,17 @@ export const SkillFrontCard: React.FC<SkillFrontProps> = ({ skillsFront}) => {
 
     //Creamos un switch para dar un estilo de color dependiendo del nivel
     const levelColor = (level: skillFront["level"]) => {
-
         switch (level) {
-            case "Advanced":
-                return "success ";    
-            case "Intermediate":
-                return "warning text-black";      
+
             case "Basic":
-            default:
-                return "secondary";   
+                return "secondary";
+
+            case "Advanced":
+                return "success";
+
+            case "Expert":
+                return "primary";
+
         }
     };
 

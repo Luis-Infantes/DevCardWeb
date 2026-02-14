@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "src\\types\\types.ts",
               "ToolTip": "C:\\Tajamar\\devcard-fullstack\\DevCard\\src\\types\\types.ts",
               "RelativeToolTip": "src\\types\\types.ts",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAEMAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2026-01-22T08:57:54.011Z",
               "IsPinned": true,
@@ -89,8 +89,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2026-01-22T10:40:22.26Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "ViewState": "AgIAABsAAAAAAAAAAAAAAAEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2026-01-22T10:49:54.007Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -117,8 +115,7 @@
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-01-22T10:59:08.866Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -131,8 +128,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2026-01-22T11:44:35.868Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -196,8 +192,7 @@
               "RelativeToolTip": "src\\components\\IntroCard.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-01-23T11:59:25.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T11:59:25.812Z"
             },
             {
               "$type": "Document",
@@ -209,8 +204,7 @@
               "RelativeToolTip": "src\\services\\devcard.service.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-01-23T11:55:33.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T11:55:33.258Z"
             },
             {
               "$type": "Document",
@@ -222,8 +216,7 @@
               "RelativeToolTip": "src\\components\\EducationCard.tsx",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-01-22T11:56:07.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T11:56:07.789Z"
             },
             {
               "$type": "Document",
@@ -235,8 +228,7 @@
               "RelativeToolTip": "src\\components\\PersonalInfoCard.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-01-22T11:44:26.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T11:44:26.512Z"
             },
             {
               "$type": "Document",
@@ -248,8 +240,7 @@
               "RelativeToolTip": "src\\components\\SkillToolCard.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-01-22T11:28:36.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T11:28:36.631Z"
             },
             {
               "$type": "Document",
@@ -261,8 +252,7 @@
               "RelativeToolTip": "src\\components\\SkillCloudCard.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-01-22T11:24:04.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T11:24:04.528Z"
             },
             {
               "$type": "Document",
@@ -274,8 +264,7 @@
               "RelativeToolTip": "src\\main.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-01-22T11:04:38.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T11:04:38.802Z"
             },
             {
               "$type": "Document",
@@ -287,8 +276,7 @@
               "RelativeToolTip": "src\\components\\SkillFrontCard.tsx",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-01-22T09:06:14.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T09:06:14.11Z"
             }
           ]
         }
