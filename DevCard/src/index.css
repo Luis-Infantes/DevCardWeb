@@ -166,7 +166,7 @@ body {
 
 .custom-card {
 
-    background-image: url("image/BackgroundBase.jpg");
+    background-image: url("/image/BackgroundBase.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -199,7 +199,7 @@ body {
 /*--Estilos para las modales--*/
 
 .myModalContent {
-    background-image: url("image/modalBackground.jpg");
+    background-image: url("/image/modalBackground.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
