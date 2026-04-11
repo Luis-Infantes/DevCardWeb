@@ -3,12 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "node index.js"
   },
+
   "dependencies": {
     "bootstrap": "^5.3.8",
     "react": "^19.2.0",
