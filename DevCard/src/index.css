@@ -1,34 +1,32 @@
 
 
 body {
-    
     min-height: 100vh;
-    background: linear-gradient(135deg, #84d0ed, #35648f, #33516c);
-    background-attachment: fixed; 
-    font-family: Arial, sans-serif; 
+    background: linear-gradient(135deg, #94a0ad,#7a7c7d,#444);
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    
+    justify-content: center;
+    align-items: center;
 }
 
 
 .Project-Style {
-    background-color: #35648f;
-    border: 2px solid #213547;
+    background-color: #7a7c7d;
+    border: 2px solid #0d2135;
     margin-left: 12px;
     margin-top: 10px;
-    width: 90%;
+    width: 100%;
 }
 
     .Project-Style:hover {
-        background-color: #3b75aa;
-        border: 2px solid #7db5cb;
+        background-color: #535455;
+        border: 2px solid #05defc;
     }
 
 
 .Button-Style {
-    background-color: #35648f;
+    background-color: #7a7c7d;
     border: 2px solid #213547;
     margin-left: 12px;
     margin-top: 10px;
@@ -36,7 +34,7 @@ body {
 }
 
     .Button-Style:hover {
-        background-color: #3b75aa;
+        background-color: #535455;
         border: 2px solid #7db5cb;
     }
 
@@ -44,35 +42,139 @@ body {
 
 .container {
     margin-top: 20px;
-    align-items: center; 
-    justify-content: center; 
-    text-align: center; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 
+
+
+/*--PROJECTS STYLES--*/
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+
+   
+}
+
+
+.introcard-grid-info {
+
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10px;
+  
+}
+
+
+.introcard-grid-redes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .Project-Style h4 {
+        font-size:16px;
+    }
+
+    .Project-Style p {
+        font-size: 10px;
+    }
+
+    .introcard-grid-redes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .Project-Style h4 {
+        font-size: 18px;
+    }
+
+    .Project-Style p {
+        font-size: 12px;
+    }
+
+
+    .introcard-grid-redes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+}
+
+
+.card-project {
+
+
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
 .Intro-Style img:hover {
-    filter: drop-shadow(0 0 5px #84d0ed) drop-shadow(0 0 2px #84d0ed);
+    filter: drop-shadow(0 0 2px #cedcf5) drop-shadow(0 0 2px #05defc);
 }
 
 .Intro-Style a {
     text-decoration:none;
-    color:aliceblue;
+    color:#7a7c7d;
 }
 
-.Intro-Style a:hover {
-    filter: drop-shadow(0 0 5px #84d0ed) drop-shadow(0 0 2px #84d0ed);
-}
+    .Intro-Style a:hover {
+        filter: drop-shadow(0 0 2px #cedcf5) drop-shadow(0 0 2px #05defc);
+        
+    }
 
 
 
 
 .custom-card {
-    background-color: transparent;
-    border: 2px solid #213547;
+
+    background-image: url("image/BackgroundBase.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #94a0ad;
     border-radius: 16px;
     padding: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
-    color: #213547;
+    color: #35648f;
     margin-bottom: 20px;
 }
 
@@ -83,6 +185,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
 
 
@@ -93,11 +196,16 @@ body {
     
 }
 
+/*--Estilos para las modales--*/
+
 .myModalContent {
-    background: linear-gradient(135deg, #84d0ed, #35648f, #33516c);
-    color: #fff;
+    background-image: url("image/modalBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #35648f;
     border-radius: 16px;
-    border: 2px solid #213547;
+    border: 2px solid #0d2135;
     padding: 20px;
 }
 
@@ -108,7 +216,7 @@ body {
     width: 100%;
 }
 
-    /* Esto centra el título h4 específicamente */
+   
     .myModalHeader .modal-title {
         margin: 0 auto;
     }
@@ -118,10 +226,10 @@ body {
 
 .myModalBody {
     font-size: 1rem;
-    text-align: center; /* Centra textos básicos */
+    text-align: center; 
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra elementos flex */
+    align-items: center; 
 }
 
 
@@ -134,7 +242,7 @@ body {
 }
 
 
-
+/*---------------------------------------------------------*/
 
 
 
@@ -156,9 +264,9 @@ body {
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+    font-weight: 500;
+    color: #35648f;
+    text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
@@ -197,13 +305,13 @@ button:focus-visible {
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
+    :root {
+        color: #35648f;
+        background-color: #ffffff;
+    }
+    a:hover {
+        color: #35648f;
+    }
   button {
     background-color: #f9f9f9;
   }

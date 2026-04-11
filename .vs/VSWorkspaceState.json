@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DevCard",
+    "\\DevCardBack",
+    "\\DevCardBack\\src",
+    "\\DevCardBack\\src\\seed",
+    "\\DevCard\\public",
+    "\\DevCard\\src",
+    "\\DevCard\\src\\components",
+    "\\DevCard\\src\\components\\educations"
+  ],
+  "SelectedNode": "\\DevCard\\src\\components\\ProjectCard.tsx",
+  "PreviewInSolutionExplorer": false
+}

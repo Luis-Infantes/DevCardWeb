@@ -35,7 +35,7 @@ export const SkillCloudCard: React.FC<SkillCloudProps> = ({ skillsCloud }) => {
         <>
 
             <Button className="Button-Style" onClick={toggle}>
-                #CLOUD#
+                Cloud
             </Button>
 
             <Modal
@@ -79,7 +79,7 @@ export const SkillCloudCard: React.FC<SkillCloudProps> = ({ skillsCloud }) => {
 
                 <ModalFooter className="myModalFooter">
                     <Button color="secondary" onClick={toggle}>
-                        Cerrar
+                        Close
                     </Button>
                 </ModalFooter>
 

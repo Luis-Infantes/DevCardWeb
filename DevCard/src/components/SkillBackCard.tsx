@@ -37,7 +37,7 @@ export const SkillBackCard: React.FC<SkillBackProps> = ({ skillsBack }) => {
         <>
 
             <Button className="Button-Style"  onClick={toggle}>
-                #BACK#
+                Backend
             </Button>
 
 
@@ -85,7 +85,7 @@ export const SkillBackCard: React.FC<SkillBackProps> = ({ skillsBack }) => {
 
                 <ModalFooter className="myModalFooter">
                     <Button color="secondary" onClick={toggle}>
-                        Cerrar
+                        Close
                     </Button>
                 </ModalFooter>
 

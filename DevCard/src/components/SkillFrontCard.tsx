@@ -37,7 +37,7 @@ export const SkillFrontCard: React.FC<SkillFrontProps> = ({ skillsFront}) => {
         <>
 
             <Button className="Button-Style" onClick={toggle}>
-                #FRONT#
+                Frontend
             </Button>
 
             <Modal
@@ -83,7 +83,7 @@ export const SkillFrontCard: React.FC<SkillFrontProps> = ({ skillsFront}) => {
 
                 <ModalFooter className="myModalFooter">
                     <Button color="secondary" onClick={toggle}>
-                        Cerrar
+                        Close
                     </Button>
                 </ModalFooter>
                

@@ -1,13 +1,14 @@
 ﻿import { useEffect, useState } from "react";
 import { EducationCard } from "./components/EducationCard";
 import { IntroCard } from "./components/IntroCard";
-import { PersonalInfoCard } from "./components/PersonalInfoCard";
 import { ProjectCard } from "./components/ProjectCard";
 import { SkillBackCard } from "./components/SkillBackCard";
 import { SkillCloudCard } from "./components/SkillCloudCard";
 import { SkillFrontCard } from "./components/SkillFrontCard";
 import { SkillToolCard } from "./components/SkillToolCard";
 import { getDevCard } from "./services/devcard.service";
+import { ProjectCloud } from "./components/ProjectCloud";
+import { ProjectPrimer } from "./components/ProjectPrimer";
 
 
 
@@ -39,27 +40,36 @@ export const App = () => {
                     <IntroCard data={data.intro} />
                 </div>
 
-            
-                <div className="custom-card">
-                <h2>Experiencia</h2>
-                <p>A traves del siquiente enlace os presento mi experiencia que  se ha ido construyendo paso a paso. Primero a través de proyectos personales donde aprendí a experimentar y después durante el máster de Desarrollo Full Stack y arquitecturas cloud en Tajamar, donde llevé esos conocimientos a un entorno más técnico, guiado y orientado a buenas prácticas.</p>
-                <ProjectCard projects={data.projects} />
-                </div>
 
             <div className="custom-card">
-                <h2>Formación</h2>
-                <p>En este enlace podéis ver un resumen de toda la formación que he realizado en los últimos años: certificaciones oficiales, formación privada y cursos con diplomas no oficiales que he completado para seguir creciendo profesionalmente</p>
+                <h2>Cloud & Backend Projects</h2>
+                <p>Cloud project deployment and solution development with Microsoft Power Platform, focused on modern application development and digital transformation within the Microsoft ecosystem.</p>
+                <ProjectCloud projectscloud={data.projectscloud} />
+            </div>
+            
+                <div className="custom-card">
+                <h2>Frontend & Backend Code Projects</h2>
+                <p>Small projects created for backend and frontend development. These projects are intended as technical practice to improve my layout design skills, programming logic, and data management.</p>
+                <ProjectCard projects={data.projects} />
+            </div>
+
+            <div className="custom-card">
+                <h2>Experimental Technology Projects</h2>
+                <p>Introductory projects and first exposure to new technologies, developed with the aim of understanding their core concepts, tools, and workflow.</p>
+                <ProjectPrimer projectsprimer={data.projectsprimer} />
+            </div>
+
+            <div className="custom-card">
+                <h2>Education & Knowledge</h2>
+                <p>My recent education includes official training in software development and cloud technologies, along with complementary courses to expand my technical knowledge and skills.</p>
                 <EducationCard educations={data.education} />
                    
             </div>
 
-            <div className="custom-card">
-                <h2>Contacto</h2>
-                <PersonalInfoCard data={data.personalinfo} />
-            </div>
 
             <div className="custom-card">
-                <h2>Skills</h2>
+                <h2>Technical Skills</h2>
+                <p>An overview of the technologies and tools I work with, organized by area and presented as skill categories.</p>
                 <SkillFrontCard skillsFront={data.skillsfront} />
                 <SkillBackCard skillsBack={data.skillsback} />
                 <SkillCloudCard skillsCloud={data.skillscloud} />

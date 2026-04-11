@@ -39,7 +39,7 @@ export const SkillToolCard: React.FC<SkillToolProps> = ({ skillsTool }) => {
         <>
 
             <Button className="Button-Style" onClick={toggle}>
-                #TOOL#
+                Tools
             </Button>
 
             <Modal
@@ -87,7 +87,7 @@ export const SkillToolCard: React.FC<SkillToolProps> = ({ skillsTool }) => {
 
                 <ModalFooter className="myModalFooter">
                     <Button color="secondary" onClick={toggle}>
-                        Cerrar
+                        Close
                     </Button>
                 </ModalFooter>
 

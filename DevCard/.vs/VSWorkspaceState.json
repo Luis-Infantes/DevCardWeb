@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\public\\image",
     "\\src",
-    "\\src\\services",
-    "\\src\\types"
+    "\\src\\components",
+    "\\src\\services"
   ],
-  "SelectedNode": "\\public\\image\\Angular.png",
   "PreviewInSolutionExplorer": false
 }

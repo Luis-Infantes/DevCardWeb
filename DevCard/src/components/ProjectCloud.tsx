@@ -1,5 +1,5 @@
-﻿import { useState } from "react";
-import type { ProjectProps } from "../types/types";
+import { useState } from "react";
+import type { ProjectCloudProps, ProjectProps } from "../types/types";
 import { TurboPointProject } from "./projects/TurboPointProject";
 import { DevCardProject } from "./projects/DevCardProject";
 import { CromePlayProject } from "./projects/CromePlayProject";
@@ -9,7 +9,7 @@ import { BitSchoolProject } from "./projects/BitSchoolProject";
 import { BluePayProject } from "./projects/BluePayProject";
 
 
-export const ProjectCard: React.FC<ProjectProps> = ({ projects }) => {
+export const ProjectCloud: React.FC<ProjectCloudProps> = ({ projectscloud }) => {
 
     const [open, setOpen] = useState(false);
 
@@ -22,15 +22,12 @@ export const ProjectCard: React.FC<ProjectProps> = ({ projects }) => {
         <div className="container">
 
             <div className="projects-grid">
-                
-                <div className="card-project"><CromePlayProject projects={projects} /></div>
-                <div className="card-project"><BitSchoolProject projects={projects} /></div>
-                <div className="card-project"><TurboPointProject projects={projects} /></div>
-               
+                <div className="card-project"><DevCardProject projectscloud={projectscloud} /></div>
+                <div className="card-project"><BluePayProject projectscloud={projectscloud} /></div>
+                <div className="card-project"><Impresion3DProject projectscloud={projectscloud} /></div>
             </div>
 
-
         </div>
-    
+
     )
 }

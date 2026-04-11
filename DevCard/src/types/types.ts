@@ -6,6 +6,11 @@ export type Intro = {
     title: string;
     description: string;
     image: string;
+    azureCertification: string;
+    avatarimg: string; 
+    email: string;
+    linkedin: string;
+    github: string;
 }
 
 
@@ -15,24 +20,7 @@ export type IntroProps = {
 }
 
 
-//-----------------------------------------------------
 
-
-export type PersonalInfo = {
-
-    email: string;
-    phone?: number;
-    location?: string;
-    linkedin: string;
-    github: string;
-
-}
-
-
-export type PersonalInfoProps = {
-
-    data: PersonalInfo;
-}
 
 //-----------------------------------------------------
 
@@ -44,7 +32,9 @@ export type Project = {
     description: string;
     tech: string[];
     link: string;
+    linkvideo: string;
     image: string;
+    slug: string; // identificador de cada proyecto
 }
 
 
@@ -53,7 +43,59 @@ export type ProjectProps = {
     projects: Project[];
 }
 
+
+
+
+
+
 //-----------------------------------------------------
+
+export type ProjectCloud = {
+
+    id: string;
+    title: string;
+    description: string;
+    tech: string[];
+    link: string;
+    linkvideo: string;
+    image: string;
+    slug: string; // identificador de cada proyecto
+}
+
+
+export type ProjectCloudProps = {
+
+    projectscloud: ProjectCloud[];
+}
+
+
+
+
+
+//------------------------------------------------------
+
+export type ProjectPrimer = {
+
+    id: string;
+    title: string;
+    description: string;
+    tech: string[];
+    link: string;
+    linkvideo: string;
+    image: string;
+    slug: string; // identificador de cada proyecto
+}
+
+
+export type ProjectPrimerProps = {
+
+    projectsprimer: ProjectPrimer[];
+}
+
+
+
+
+//----------------------------------------------------------------
 
 
 export type Education = {
@@ -64,6 +106,7 @@ export type Education = {
     startdate: string;
     link: string;
     center: string;
+    slug: string; // identificador de cada centro
 }
 
 export type EducationProps = {
@@ -154,18 +197,7 @@ export type SkillToolProps = {
 
 
 
-export type Language = {
 
-    id: string;
-    name: string;
-    level: "A2" | "B1" | "B2";
-}
-
-
-export type LanguageProps = {
-
-    languages: Language;
-}
 
 
 
