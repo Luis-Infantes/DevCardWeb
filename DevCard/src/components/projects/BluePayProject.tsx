@@ -1,6 +1,6 @@
 ﻿import { useState } from "react";
 import { Button, Modal, ModalBody, ModalFooter } from 'reactstrap';
-import type { Project, ProjectCloud, ProjectCloudProps, ProjectProps } from "../../types/types";
+import type {  ProjectCloud, ProjectCloudProps } from "../../types/types";
 
 
 export const BluePayProject: React.FC<ProjectCloudProps> = ({ projectscloud }) => {

@@ -1,5 +1,5 @@
-﻿import { Button, Modal, ModalBody, ModalHeader, ModalFooter } from 'reactstrap';
-import type {  Education, EducationProps } from '../types/types';
+﻿import * as React from "react";
+import type {  EducationProps } from '../types/types';
 import { useState } from 'react';
 import { TajamarEducation } from './educations/TajamarEducation';
 import { UdemyEducation } from './educations/UdemyEducation';

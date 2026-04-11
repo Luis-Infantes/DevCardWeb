@@ -1,12 +1,10 @@
 ﻿import { useState } from "react";
 import type { ProjectProps } from "../types/types";
 import { TurboPointProject } from "./projects/TurboPointProject";
-import { DevCardProject } from "./projects/DevCardProject";
 import { CromePlayProject } from "./projects/CromePlayProject";
-import { SocialHomeProject } from "./projects/SocialHomeProject";
-import { Impresion3DProject } from "./projects/Impresion3DProject";
 import { BitSchoolProject } from "./projects/BitSchoolProject";
-import { BluePayProject } from "./projects/BluePayProject";
+
+
 
 
 export const ProjectCard: React.FC<ProjectProps> = ({ projects }) => {

@@ -1,19 +1,13 @@
 import { useState } from "react";
-import type { ProjectPrimerProps, ProjectProps } from "../types/types";
-import { TurboPointProject } from "./projects/TurboPointProject";
-import { DevCardProject } from "./projects/DevCardProject";
-import { CromePlayProject } from "./projects/CromePlayProject";
+import type { ProjectPrimerProps } from "../types/types";
 import { SocialHomeProject } from "./projects/SocialHomeProject";
-import { Impresion3DProject } from "./projects/Impresion3DProject";
-import { BitSchoolProject } from "./projects/BitSchoolProject";
-import { BluePayProject } from "./projects/BluePayProject";
 import { PopularGroupsProject } from "./projects/PopularGroupsProject";
 
 
 
 export const ProjectPrimer: React.FC<ProjectPrimerProps> = ({ projectsprimer }) => {
 
-    const [open, setOpen] = useState(false);
+    const [_open, setOpen] = useState(false);
 
     const toggle = () => setOpen(prev => !prev)
 

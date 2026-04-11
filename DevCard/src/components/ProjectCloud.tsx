@@ -2,16 +2,13 @@ import { useState } from "react";
 import type { ProjectCloudProps, ProjectProps } from "../types/types";
 import { TurboPointProject } from "./projects/TurboPointProject";
 import { DevCardProject } from "./projects/DevCardProject";
-import { CromePlayProject } from "./projects/CromePlayProject";
-import { SocialHomeProject } from "./projects/SocialHomeProject";
 import { Impresion3DProject } from "./projects/Impresion3DProject";
-import { BitSchoolProject } from "./projects/BitSchoolProject";
 import { BluePayProject } from "./projects/BluePayProject";
 
 
 export const ProjectCloud: React.FC<ProjectCloudProps> = ({ projectscloud }) => {
 
-    const [open, setOpen] = useState(false);
+    const [_open, setOpen] = useState(false);
 
     const toggle = () => setOpen(prev => !prev)
 

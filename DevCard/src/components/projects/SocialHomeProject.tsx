@@ -1,6 +1,6 @@
 ﻿import { useState } from "react";
 import { Button, Modal, ModalBody, ModalFooter } from 'reactstrap';
-import type { Project, ProjectPrimer, ProjectPrimerProps, ProjectProps } from "../../types/types";
+import type { ProjectPrimer, ProjectPrimerProps} from "../../types/types";
 
 
 export const SocialHomeProject: React.FC<ProjectPrimerProps> = ({ projectsprimer }) => {

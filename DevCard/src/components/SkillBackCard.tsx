@@ -1,6 +1,7 @@
 import { Button, Modal, ModalBody, ModalHeader, ModalFooter, Badge } from 'reactstrap';
 import type { SkillBackProps, skillBack} from '../types/types';
 import { useState } from 'react';
+import * as React from "react";
 
 
 

@@ -1,4 +1,4 @@
-﻿import type React from "react";
+﻿import * as React from "react";
 import type { IntroProps } from "../types/types";
 import { Envelope, Github, Linkedin } from "react-bootstrap-icons";
 
