@@ -7,6 +7,7 @@ export type Intro = {
     description: string;
     image: string;
     azureCertification: string;
+    awsCertification: string;
     avatarimg: string; 
     email: string;
     linkedin: string;

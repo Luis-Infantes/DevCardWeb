@@ -49,7 +49,25 @@ export const IntroCard: React.FC<IntroProps> = ({ data }) => {
                     </a>
 
 
-                    <a href="https://learn.microsoft.com/es-es/users/luisinfanteslacal-7036/credentials/certification/azure-developer?tab=credentials-tab" target="_blank" rel="noopener noreferrer" >
+                    <a href="https://www.credly.com/badges/6172789c-d8ea-4e13-b1b3-ae63a87b19bf/public_url" target="_blank" rel="noopener noreferrer" >
+
+                        <img
+                            src={`/image/${data.awsCertification}`}
+                            alt={`Logo de ${data.awsCertification}`}
+                            className="skill-icon"
+                            width={80}
+                            height={80}
+                            loading="lazy"
+                            onError={(e) => {
+                                // Fallback si la imagen no existe
+                                (e.currentTarget as HTMLImageElement).src = "/images/_fallback.png";
+                            }}
+                        />
+
+                    </a>
+
+
+                    <a href="https://learn.microsoft.com/api/credentials/share/es-es/LuisInfantesLacal-7036/912029C9B430FAB?sharingId=BD8D51D6F5F5B864" target="_blank" rel="noopener noreferrer" >
 
                         <img
                             src={`/image/${data.azureCertification}`}
