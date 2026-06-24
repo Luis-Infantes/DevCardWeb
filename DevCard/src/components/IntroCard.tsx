@@ -31,7 +31,7 @@ export const IntroCard: React.FC<IntroProps> = ({ data }) => {
                 <p>{data.description}</p>
 
                 <div className="Intro-Style">
-                    <a href="https://learn.microsoft.com/es-es/users/luisinfanteslacal-7036/credentials/e182d2f15d51e9ff?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noopener noreferrer" >
+                    
 
                         <img
                             src={`/image/${data.powerPlatformCertification}`}
@@ -46,10 +46,10 @@ export const IntroCard: React.FC<IntroProps> = ({ data }) => {
                             }}
                         />
 
-                    </a>
+                    
 
 
-                    <a href="https://www.credly.com/badges/6172789c-d8ea-4e13-b1b3-ae63a87b19bf/public_url" target="_blank" rel="noopener noreferrer" >
+                    
 
                         <img
                             src={`/image/${data.awsCertification}`}
@@ -64,10 +64,8 @@ export const IntroCard: React.FC<IntroProps> = ({ data }) => {
                             }}
                         />
 
-                    </a>
+                    
 
-
-                    <a href="https://learn.microsoft.com/api/credentials/share/es-es/LuisInfantesLacal-7036/912029C9B430FAB?sharingId=BD8D51D6F5F5B864" target="_blank" rel="noopener noreferrer" >
 
                         <img
                             src={`/image/${data.azureCertification}`}
@@ -82,7 +80,7 @@ export const IntroCard: React.FC<IntroProps> = ({ data }) => {
                             }}
                         />
 
-                    </a>
+                  
 
 
 
