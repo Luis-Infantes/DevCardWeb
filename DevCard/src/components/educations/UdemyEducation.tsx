@@ -68,9 +68,9 @@ export const UdemyEducation: React.FC<EducationProps> = ({ educations }) => {
                                 <strong className="h5">{e.title}</strong>
                                 <br />
                                 <p>{e.description}</p>
-                                <p className="text-info mb-2 fw-bold">{e.startdate}</p>
+                                <p className="text-primary mb-2 fw-bold">{e.startdate}</p>
 
-                                <a href={e.link} target="_blank" rel="noreferrer" className="btn btn-sm text-light btn-info p-2 ">
+                                <a href={e.link} target="_blank" rel="noreferrer" className="btn btn-sm text-light btn-primary p-2 ">
                                     Credentials
                                 </a>
 

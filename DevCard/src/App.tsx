@@ -37,9 +37,20 @@ export const App = () => {
         <div className="container">
 
             
-                <div className="custom-card">
+            <div className="custom-card">
                     <IntroCard data={data.intro} />
-                </div>
+            </div>
+
+
+            <div className="custom-card">
+                <h2>Technical Skills</h2>
+                <p>An overview of the technologies and tools I work with, organized by area and presented as skill categories.</p>
+                <SkillFrontCard skillsFront={data.skillsfront} />
+                <SkillBackCard skillsBack={data.skillsback} />
+                <SkillCloudCard skillsCloud={data.skillscloud} />
+                <SkillToolCard skillsTool={data.skillstool} />
+
+            </div>
 
 
             <div className="custom-card">
@@ -61,25 +72,12 @@ export const App = () => {
             </div>
 
             <div className="custom-card">
-                <h2>Education & Knowledge</h2>
+                <h2>Education & Certificates</h2>
                 <p>My recent education includes official training in software development and cloud technologies, along with complementary courses to expand my technical knowledge and skills.</p>
                 <EducationCard educations={data.education} />
                    
             </div>
-
-
-            <div className="custom-card">
-                <h2>Technical Skills</h2>
-                <p>An overview of the technologies and tools I work with, organized by area and presented as skill categories.</p>
-                <SkillFrontCard skillsFront={data.skillsfront} />
-                <SkillBackCard skillsBack={data.skillsback} />
-                <SkillCloudCard skillsCloud={data.skillscloud} />
-                <SkillToolCard skillsTool={data.skillstool} />
-
-            </div>
-            
-
-            
+   
             
         </div>
 

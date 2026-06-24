@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
+    "\\src",
     "\\src\\components",
+    "\\src\\components\\educations",
+    "\\src\\components\\projects",
     "\\src\\services"
   ],
-  "SelectedNode": "\\tsconfig.json",
+  "SelectedNode": "\\src\\components\\educations\\UdemyEducation.tsx",
   "PreviewInSolutionExplorer": false
 }

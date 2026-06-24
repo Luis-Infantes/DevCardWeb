@@ -34,8 +34,8 @@ export const IntroCard: React.FC<IntroProps> = ({ data }) => {
                     <a href="https://learn.microsoft.com/es-es/users/luisinfanteslacal-7036/credentials/e182d2f15d51e9ff?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noopener noreferrer" >
 
                         <img
-                            src={`/image/${data.image}`}
-                            alt={`Logo de ${data.image}`}
+                            src={`/image/${data.powerPlatformCertification}`}
+                            alt={`Logo de ${data.powerPlatformCertification}`}
                             className="skill-icon"
                             width={80}
                             height={80}

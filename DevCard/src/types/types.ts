@@ -5,7 +5,7 @@ export type Intro = {
     fullname: string;
     title: string;
     description: string;
-    image: string;
+    powerPlatformCertification: string;
     azureCertification: string;
     awsCertification: string;
     avatarimg: string; 

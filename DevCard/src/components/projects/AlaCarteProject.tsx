@@ -3,15 +3,15 @@ import { Button, Modal, ModalBody, ModalFooter } from 'reactstrap';
 import type {ProjectCloud, ProjectCloudProps } from "../../types/types";
 
 
-export const Impresion3DProject: React.FC<ProjectCloudProps> = ({ projectscloud }) => {
+export const AlaCarteProject: React.FC<ProjectCloudProps> = ({ projectscloud }) => {
 
     const [open, setOpen] = useState(false);
 
     const toggle = () => setOpen(prev => !prev)
 
 
-    const impresion3dProject = projectscloud.filter(
-        (p: ProjectCloud) => p.slug === "impresion3d"
+    const alacarteProject = projectscloud.filter(
+        (p: ProjectCloud) => p.slug === "alacarte"
     );
 
 
@@ -20,9 +20,9 @@ export const Impresion3DProject: React.FC<ProjectCloudProps> = ({ projectscloud 
         <div className="container">
 
             <Button className="Project-Style" onClick={toggle}>
-                <h4>3D Impresion</h4>
-                <p>Inventory management and printing materials order application</p>
-                <p className="text-info mb-2 fw-bold">Power Apps | Power Automate</p>
+                <h4>A la Carte</h4>
+                <p>Restaurant management solution for orders and reservations (TFM).</p>
+                <p className="text-info mb-2 fw-bold">Power Apps| Power Automate | Power BI</p>
             </Button>
 
 
@@ -42,7 +42,7 @@ export const Impresion3DProject: React.FC<ProjectCloudProps> = ({ projectscloud 
                 <ModalBody className="myModalBody">
 
                     <ul className="list-unstyled mb-0">
-                        {impresion3dProject.map((p: ProjectCloud) => (
+                        {alacarteProject.map((p: ProjectCloud) => (
 
                             <li key={p.id} className="d-flex flex-column align-items-center mb-4 text-center">
 
@@ -51,7 +51,7 @@ export const Impresion3DProject: React.FC<ProjectCloudProps> = ({ projectscloud 
 
                                     className="skill-icon"
                                     width={330}
-                                    height={220}
+                                    height={330}
                                     loading="lazy"
                                     onError={(e) => {
                                         // Fallback si la imagen no existe

@@ -1,4 +1,4 @@
-﻿import { Button, Modal, ModalBody, ModalHeader, ModalFooter } from 'reactstrap';
+import { Button, Modal, ModalBody, ModalHeader, ModalFooter } from 'reactstrap';
 import { useState } from 'react';
 import type { Education, EducationProps } from '../../types/types';
 
@@ -8,26 +8,27 @@ import type { Education, EducationProps } from '../../types/types';
 
 
 
-export const CeiEducation: React.FC<EducationProps> = ({ educations }) => {
+export const CertificatesEducation: React.FC<EducationProps> = ({ educations }) => {
 
     const [open, setOpen] = useState(false);
 
     const toggle = () => setOpen(prev => !prev)
 
-    const ceiEducation = educations.filter(
-        (p: Education) => p.slug === "cei"
+    const certificates = educations.filter(
+        (p: Education) => p.slug === "certificates"
     );
 
     return (
 
         <>
-           
 
             <Button className="Project-Style" onClick={toggle}>
-                <h4 className="p-2">CEI</h4>
-                </Button>
+                <h4 className="p-2">Certificates</h4>
 
-           
+            </Button>
+
+
+
 
 
             <Modal
@@ -41,12 +42,12 @@ export const CeiEducation: React.FC<EducationProps> = ({ educations }) => {
             >
 
 
-                <ModalHeader className="myModalHeader">Professional training</ModalHeader>
+                <ModalHeader className="myModalHeader">Official Certificates</ModalHeader>
 
                 <ModalBody className="myModalBody">
 
                     <ul className="list-unstyled mb-0">
-                        {ceiEducation.map((e: Education) => (
+                        {certificates.map((e: Education) => (
                             <li key={e.id} className=" d-flex flex-column align-items-center mb-4 text-center">
 
                                 <img

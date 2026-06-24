@@ -50,7 +50,7 @@ export const PopularGroupsProject: React.FC<ProjectPrimerProps> = ({ projectspri
 
                                     className="skill-icon"
                                     width={330}
-                                    height={220}
+                                    height={330}
                                     loading="lazy"
                                     onError={(e) => {
                                         // Fallback si la imagen no existe
