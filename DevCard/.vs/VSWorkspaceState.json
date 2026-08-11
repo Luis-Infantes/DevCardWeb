@@ -2,12 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\public",
+    "\\public\\image",
     "\\src",
     "\\src\\components",
     "\\src\\components\\educations",
     "\\src\\components\\projects",
     "\\src\\services"
   ],
-  "SelectedNode": "\\src\\components\\IntroCard.tsx",
+  "SelectedNode": "\\src\\components\\educations\\TajamarEducation.tsx",
   "PreviewInSolutionExplorer": false
 }
